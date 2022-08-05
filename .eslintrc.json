@@ -1,6 +1,7 @@
 {
   "extends": "@rocketseat/eslint-config/react",
   "rules": {
+    "no-unused-vars": "off",
     "prettier/prettier": ["error", {
       "printWidth": 80,
       "tabWidth": 2,
@@ -9,7 +10,6 @@
       "arrowParens": "always",
       "semi": false,
       "endOfLine": "auto",
-      "no-unused-vars": "off"
     }],
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
