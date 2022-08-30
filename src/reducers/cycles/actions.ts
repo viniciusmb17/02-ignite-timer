@@ -1,4 +1,5 @@
-import { Cycle } from "./reducer";
+/* eslint-disable no-unused-vars */
+import { Cycle } from './reducer'
 
 export enum ActionTypes {
   ADD_NEW_CYCLE = 'ADD_NEW_CYCLE',
@@ -18,7 +19,7 @@ export function addNewCycleAction(newCycle: Cycle) {
 export function markCurrentCycleAsFinishedAction() {
   return {
     type: ActionTypes.MARK_CURRENT_CYCLE_AS_FINISSHED,
-    }
+  }
 }
 
 export function interruptCurrentCycleAction() {
